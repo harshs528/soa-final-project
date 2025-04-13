@@ -1,5 +1,5 @@
 import json
-from app import app
+from user_service.app import app
 
 def test_register_user():
     client = app.test_client()

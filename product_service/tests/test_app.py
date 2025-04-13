@@ -1,5 +1,5 @@
 import json
-from app import app
+from product_service.app import app
 
 def test_add_product():
     client = app.test_client()
